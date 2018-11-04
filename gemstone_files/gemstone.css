@@ -1,0 +1,165 @@
+/*container */
+.Container {
+padding: 15px 80px !important; 
+}
+/* Gemstone First collection section */
+.gemstone-first-section{
+    padding: 113px 0;
+}
+/* Gemstone image div customize css */
+.gemstone-image-divider{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: -25px;
+    float: right;
+
+}
+/* gemstone img css*/
+.first-gemstone-image{
+        width: 100%;
+}
+
+.our-gemston-story{
+    color:#052263 !important; 
+    font-size: 15px;
+    color: black;
+    margin-top: 21px;
+}
+
+a.gemstone-story{
+    color: #b5b5b5;
+    font-size: 15px;
+    font-style: italic;
+}
+
+/* Gemstone product slider*/
+.gemstone-product-slider{
+    width: 100%;
+    background: #dbdbdb;
+    height: 367px;
+}
+
+.gemstone-image-divider-description{
+/*
+      margin: 0 auto;
+    
+    width: 474px;
+    margin-left: 29%;
+*/
+    
+    margin: 0 auto;
+    width: 449px;
+/*    margin-left: 214px;*/
+    margin-left: 29%;
+}
+
+.gemstone-overview{
+        margin-bottom: 28px;
+}
+
+.title-of-gemstone{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #05205f;
+}
+
+.description-of-gmestone{
+/*    width: 81%;*/
+    width: 83%;
+    line-height: 22px; 
+
+}
+
+.Paragraph-content-of-gemstone{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue' ,'Open Sans', 'Arial', sans-serif;
+}
+
+.gemstone-third-image-divider{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: -25px;
+}
+
+/*Fourth section gemstone customize class*/
+.gemstone-image-divider-description-class {
+    margin: 0 auto;
+    width: 381px;
+    /* margin-left: 214px; */
+    margin-left: 11%;
+}
+
+/* carosel gemstone page */
+.Content-gemstone-container{
+    margin-right: 20px;
+    width: 278px ;
+    margin-left: -1px;
+    margin-top: -42px;
+}
+
+.gemstone-product-image{
+    height: 103px;
+}
+
+.product-subheading {
+    color: #6e6e6e;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: -17px;
+    margin-bottom: 15px;
+}
+
+.product-paragraph-gemstones-page{
+    color: #808080; 
+    font-size: 13px; 
+    line-height: 19px; 
+    margin-bottom: 21px !important;
+    width: 80%; /* newly added*/
+    margin: 0 auto /* newly added*/;
+    
+}
+
+
+/* Responsive Media query of Gemston page start here */
+/* big tablet to 1200px: (width smaller than the 1140px row) */
+@media only screen and (max-width:1200px){
+    .Content-gemstone-container { width: auto;}
+
+}
+
+/* small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width:1023px){
+    .Content-gemstone-container { width: auto;}
+}
+
+/* small phones to small tablet: from 900px  */
+@media only screen and (max-width:900px){
+    .Content-gemstone-container { width: auto;}
+    .gemstone-image-divider { margin: 0 auto; width: 80%;}
+    .our-gemston-story{text-align: center;}
+    .description-of-gemstone{width: 80%;}
+    .gemston-title-responsive{text-align: left;}
+}
+
+/* small phones to small tablet: from 900px  */
+@media only screen and (max-width:767px){
+    .Content-gemstone-container { width: auto;}
+    .gemstone-image-divider { margin: 0 auto; width: 80%;}
+    .our-gemston-story{text-align: center;}
+    .description-of-gemstone{width: 80%;}
+    .gemston-title-responsive{text-align: left;}
+    
+    .gemstone-third-image-divider {width: 59%;}
+}
+
+
+/* small phones : form 0 to 480px*/
+@media only screen and (max-width:480px){
+    .gemstone-image-divider {float: none;}
+    .gemstone-image-divider-description { margin: 0 auto; width: 100%; margin-bottom: 39px; margin-left:13%;}
+    .gemstone-image-divider-description-class { margin: 0 auto; width: 100%; margin-left: 11%; margin-top: 21px;}
+}

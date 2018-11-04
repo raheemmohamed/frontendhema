@@ -1,0 +1,986 @@
+/*===============================================================================================*/
+/*=============================== Hemachadra Collection page css customization ================*/
+/*============================================================================================*/
+
+.banner-img-first-section{
+/*    padding: 80px 0;*/
+        padding: 229px 0;
+    width: 100%;
+    background-image: url(../img/collection/collection_banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.bottom-divider-breaker-collection {
+    background: white;
+    width: 100%;
+    height: 58px;
+    position: relative;
+    bottom: 0;
+    top: 129px;
+    background-image: url(../img/pattern/max-pattern.png);
+    background-position: center;
+}
+
+.collection-first-section{
+    padding: 113px 0;
+}
+
+.collection-image-divider{
+    margin: 0 auto;
+    width: 52%;
+    margin-top: 14px;
+
+}
+
+.collection-overview{
+        margin-bottom: 28px;
+}
+
+.collection-image-divider-description{
+      margin: 0 auto;
+    
+}
+
+.description-of-collection{
+/*    width: 81%;*/
+    width: 83%;
+    line-height: 22px; 
+
+}
+
+.title-of-collection{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.Paragraph-content-of-collection{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue' ,'Open Sans', 'Arial', sans-serif;
+}
+
+.overview-small-content{
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue' ,'Open Sans', 'Arial', sans-serif;
+    font-weight: 300;
+    color: #8c8c8c; /*default color  #c6c6c6*/
+    
+    
+     text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 12px;
+    letter-spacing: 8px;
+    
+}
+
+.second-description-of-collection{
+  
+    margin: 0 auto;
+/*    width: 77%;*/
+    width: 85%;
+    line-height: 42px;
+    margin-left: 70px;
+}
+
+.subtitle-paragraph-of-collection{
+    color: black;
+    font-size: 25px;
+     font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue' ,'Open Sans', 'Arial', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 41px;
+}
+
+.double-quote{
+    background-image: url(../img/collection/double_quote.png);
+    width: 6%;
+    display: block;
+    height: 14px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-bottom: 46px;
+}
+
+.double-quote-end{
+    background-image: url(../img/collection/double_quote_end.png);
+    width: 6%;
+    display: block;
+    height: 14px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-bottom: 27px;
+}
+
+.second-collection-section{
+    margin-top: -99px;
+}
+
+.signature-collection-devider{
+    margin: 0 auto;
+    width: 52%;
+    margin-top: 14px;
+}
+
+.product-grid-carousel-box{
+    padding: 91px 0;
+    background: #fff;
+    margin-top: -10px;
+    height: 508px;
+}
+
+
+/*
+.carousel-cell{
+    height: 468px !important;
+    width: 290px !important;
+    border: 1px solid #e6e6e6;
+} 
+*/
+
+.carousel-wrapper .carousel  .carousel-cell.is-clicked {
+
+  transform: translate(0%,0%) !important;
+}
+
+.carousel-cell img {
+  
+     max-width: 76%;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+    margin-top: 80px;
+
+}
+
+/*
+.carousel-wrapper .carousel{
+     transform: translateY(-38%);
+}
+*/
+   
+.product-info{
+    text-align: center;
+    margin-top: -19px;
+}
+
+.carousel-wrapper-owl {
+  width: 89%;
+  margin: 0 auto;
+    margin-top: -78px;
+}
+
+.item {
+  background-color: white;
+/*  width: 90%;*/
+  height: auto;
+/*  min-height: 150px;*/
+    
+    height: 468px !important;
+/*    width: 290px !important;*/
+    border: 1px solid #e6e6e6;
+}
+
+owl-item active{
+    width: 290px !important;
+}
+
+.owl-dot .active{
+    display: none;
+}
+.owl-item{
+    /*the oldest design comment for purpose
+    width: 290px !important; 
+    margin-left: 10px;
+    */
+    
+    width: 299px !important;
+    padding-left: 23px;
+    
+}
+
+.owl-carousel.owl-drag .owl-item {
+    /* -webkit-user-select: none; */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    /* user-select: none; */
+    margin-left: 17px !important;
+/*    transform: translate(-27%) !important;*/
+}
+
+.owl-item.active {
+    color: black!important;
+    border: none!important;
+}
+
+.inquire{
+    color: #052263 !important;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600 !important;
+}
+
+/* Product customization */
+.first-product-grid{
+    width: 81%; 
+    margin: 0 auto; 
+/*    margin-top: 60px;*/
+    margin-top: 99px;
+}
+
+.product-title{
+    font-family: 'Bellefair', serif;
+    font-size: 17px; 
+    color: black; 
+    font-weight: 400;
+}
+
+.product-paragraph{
+    color: black; 
+    font-size: 13px; 
+    line-height: 19px; 
+    margin-bottom: 21px !important;
+    width: 80%; /* newly added*/
+    margin: 0 auto /* newly added*/;
+    
+}
+.collection-product-images{
+    margin-bottom: 39px !important;
+    
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.collection-intrest-section-box{
+    margin: 0 auto;
+}
+.intrest-box-title{
+    text-align: center;
+}
+
+.intrest-headerclass{
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+/*    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue' ,'Open Sans', 'Arial', sans-serif;*/
+    font-family: 'Maven Pro', sans-serif !important;
+    margin-bottom: 20px;
+}
+
+.collection-paragraph-fourth-section{
+    margin: 0 auto;
+    width: 55%;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+/*
+i{
+    font-size: 33px;
+}
+*/
+
+.intreset-section-icons{
+    width: 58%; 
+    margin: 0 auto;
+/*    margin-bottom: 9%;*/
+}
+
+.find-store{
+/*
+    vertical-align: 7px;
+    font-size: 12px;
+    margin-left: 10px;
+    font-style: initial;
+    font-weight: 600;
+    text-transform: uppercase;
+*/
+    
+    vertical-align: 5px;
+    font-size: 12px;
+    /* font-size: 15px; */
+    /* vertical-align: middle; */
+    margin-left: 2px;
+    font-style: initial;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+.ion-ios-location-outline{
+     font-size: 33px;
+}
+
+.finding-store-devider{
+    float: right;
+}
+
+.get-in-touch-devider{
+    float: left;
+}
+
+/*gem store collection contents*/
+.collection-gemstone-description{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    /*vertical-align: 118px;
+    width: 48%;
+    bottom: 37%;
+    left: 3%;*/
+    
+    /*Newly added customize code*/
+    width: 49%;
+    bottom: 37%;
+    
+}
+
+.gem-content-sub{
+    color: white;
+    font-size: 13px;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue' ,'Open Sans', 'Arial', sans-serif;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.gem-content-title{
+    font-family: 'Bellefair script=all rev=2', serif; 
+    font-size: 20px; 
+    color: white; 
+    font-weight: 600;
+}
+
+.gem-stone-devider-first{
+    background: #05205f;  
+     width: 100%; 
+    height:273px;
+}
+
+.collection-gemstone-description:hover{
+     transform: scale(1.05);
+/*    transition: opacity 0.3s 500ms-ease;*/
+}
+
+.gem-stone-devider-first:hover{
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+}
+
+
+.hemachandra-fifth-sect{
+    margin-bottom: 46px;
+}
+
+.stone-sect-bottom-margin{
+     margin-bottom: 17px;
+}
+
+/* Slick slider carousel custom css */
+/* Slick Slider Css Ruls */
+
+.slick-slider {
+  position: relative;
+  display: block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0
+}
+
+.slick-list:focus {
+  outline: none
+}
+
+.slick-list.dragging {
+  cursor: hand
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0)
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block
+}
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: ''
+}
+
+.slick-track:after {
+  clear: both
+}
+
+.slick-loading .slick-track {
+  visibility: hidden
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px
+}
+
+.slick-slide.dragging img {
+  pointer-events: none
+}
+
+.slick-initialized .slick-slide {
+  display: block
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent
+}
+
+.img-fill {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  text-align: center
+}
+
+.img-fill img {
+  height: 100%;
+  min-width: 100%;
+  position: relative;
+  display: inline-block;
+  max-width: none
+}
+
+
+/* Slider Theme Style */
+
+.Container {
+  padding: 0px 109px;
+}
+
+.Container:after,
+.Container .Head:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.Container .Head {
+  font: 20px/50px NeoSansR;
+  color: #222;
+  height: 52px;
+  
+  border-bottom: 1px solid rgba(0, 0, 0, .25);
+  display: block;
+}
+
+.Container .Head .Arrows {
+  float: right;
+}
+
+.Container .Head .Slick-Next,
+.Container .Head .Slick-Prev {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  margin-top: 6px;
+  background: #2b2b2b;
+  color: #FFF;
+  margin-left: 5px;
+  cursor: pointer;
+  font: 18px/36px FontAwesome;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.Container .Head .Slick-Next:hover,
+.Container .Head .Slick-Prev:hover {
+  background: #33687a;
+}
+
+.Container .Head .Slick-Next:before {
+  content: '\f105'
+}
+
+.Container .Head .Slick-Prev:before {
+  content: '\f104'
+}
+
+.SlickCarousel {
+  margin: 0 -7.5px;
+  margin-top: 10px;
+}
+
+.ProductBlock {
+  padding: 0 7.5px;
+}
+
+.ProductBlock .img-fill {
+  height: 200px;
+}
+
+.ProductBlock h3 {
+  font: 15px/36px RalewayR;
+  color: #393939;
+  margin-top: 5px;
+  text-align: center;
+/*  border: 1px solid rgba(0, 0, 0, .25);*/
+}
+
+.Content{
+     height: 480px !important;
+    border: 1px solid #e1e1e1; 
+    margin-right: 20px;
+    width: 278px ;
+    margin-left: -1px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
+}  
+
+.head{display: block;}
+
+.product-slider-control{
+    margin-top: -90px;
+}
+
+.intreset-section-icons{
+    margin-bottom: 159px;
+}
+
+/* =================================================================================================*/
+/* ====================== Responsive media query for Collection page=================================*/
+/*=================================================================================================*/
+
+
+@media only screen and (max-width: 1400px) and (min-width:1210px){
+    
+     .jew-images-collection {
+        height: 189px ;
+        vertical-align: 30px;
+/*        width: 45%;*/
+         
+         width: 49%;
+    }
+    
+    .jew-images-collection {
+        height: 175px ;
+        vertical-align: 31px;
+    }
+    .gem-stone-devider-first {
+        background: #05205f;
+        width: 91%;
+        height: 175px;
+        margin: 0 auto;
+    }
+    
+    .Container { padding: 0px 80px !important;}
+    
+     .Content {width: 277px;}
+    
+}
+
+
+/* big tablet to 1200px: (width smaller than the 1140px row) */
+@media only screen and (max-width:1200px){
+
+
+/*
+    .jew-images-collection {
+        height: 189px;
+        vertical-align: 30px;
+        width: 48%;
+        
+        
+    }
+*/
+    
+    .jew-images-collection {
+        height: 189px ;
+        vertical-align: 30px;
+/*        width: 45%;*/
+         
+         width: 49%;
+    }
+    
+    .jew-images-collection {
+        height: 175px ;
+        vertical-align: 31px;
+    }
+    .gem-stone-devider-first {
+        background: #05205f;
+        width: 91%;
+        height: 175px;
+        margin: 0 auto;
+    }
+    
+/*     .Content { width: 278px;} */
+    
+    
+
+    .Container {
+        padding: 0px 64px;
+    }
+
+     .Content {width: 251px;}
+    
+    .collection-gemstone-description {  width: 48% !important; /*width: 54% !important;*/} 
+    
+}
+
+/* small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width:1023px){
+
+/*
+    .jew-images-collection {
+        height: 189px;
+        vertical-align: 30px;
+        width: 45%;
+    }
+    
+*/
+    .jew-images-collection {
+        height: 189px ;
+        vertical-align: 30px;
+/*        width: 45%;*/
+         
+         width: 49%;
+    }
+     .collection-gemstone-description {  width: 48% !important; bottom: 50%;/*width: 54% !important;*/} 
+    
+    .jew-images-collection {
+        height: 175px ;
+        vertical-align: 31px;
+    }
+    .gem-stone-devider-first {
+        background: #05205f;
+        width: 91%;
+        height: 175px;
+        margin: 0 auto;
+    }
+    
+      .Content {width: 199px;}
+    
+      .navleft { width: 98% !important; margin: 0 auto;}
+    
+        .collection-product {
+            width: 204px;
+                margin-right: -6%;
+            margin-bottom: 15px;
+            margin-left: 7%;
+        }
+    
+}
+
+@media only screen and (max-width:900px){
+     .banner-img-first-section {
+        padding: 148px 0;
+    }
+    
+    .ring-image{
+        width: 100%;
+    }
+    .collection-image-divider { margin: 0 auto;     margin-top: 23%;}
+    .collection-overview{text-align: center;}
+    .description-of-collection{margin: 0 auto;}
+    .Paragraph-content-of-collection {font-size: 16px; line-height: 29px;}
+    
+    .second-description-of-collection {margin: 0 auto; width: 85%; line-height: 42px;}
+    .double-quote {width: 10%;}
+    .double-quote-end {width: 10%;}
+    
+    .item {
+        background-color: white; 
+        height: 468px !important; 
+        border: 1px solid #e6e6e6;
+    }
+    
+    owl-item active{
+    width: 100% !important;
+        border: none;
+}
+    
+    .owl-item.active { color: black !important; border: none !important;     margin-right: -229px;}
+    .owl-dots{display: none;}
+    .Third-collection-page{    margin-bottom: -547px;}
+    
+    .finding-store-devider {float: none;}
+    .get-in-touch-devider {float: none;}
+    
+    .collection-paragraph-fourth-section {
+    margin: 0 auto;
+    width: 79%;
+    font-size: 13px;
+    line-height: 27px;
+    font-weight: 400;
+        margin-bottom: 33px;
+    }
+/*    .gem-stone-devider-first { width: 87%; margin-bottom: 17px !important; height: 147px!important; margin: 0 auto;}      */
+
+    .jew-images-collection{ height: 147px; vertical-align: 40px;}
+    .hemachandra-fifth-sect {margin-top: -101px; }
+    
+    .gem-content-sub { font-size: 12px;}
+    
+/*    .collection-gemstone-description { vertical-align: 98px;}*/
+     .collection-gemstone-description {  width: 48% !important; bottom: 59%;/*width: 54% !important;*/} 
+    .gem-content-title { font-size: 17px;}
+    
+/*    .Container { padding: 0px 23px;}*/
+    
+    
+
+    .gem-stone-devider-first {
+        background: #05205f;
+        width: 91%;
+        height: 147px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .Content {width: 220px;}
+    
+    .navleft { width: 98% !important; margin: 0 auto;}
+}
+
+
+
+@media only screen and (max-width:898px) and (min-width:800px){
+
+    .Content { width: 169px; margin-left: -7px;}
+    .collection-product-images{width: 50%;}
+    
+      .navleft { width: 98% !important; margin: 0 auto;}
+    
+   
+}
+
+    
+    
+    
+/* small phones to small tablet: from 481px to 767 */
+@media only screen and (max-width:767px){
+    
+     .collection-gemstone-description {  width: 48% !important; bottom: 2%;/*width: 54% !important;*/}
+    
+    .banner-img-first-section {
+        padding: 148px 0;
+    }
+    
+    .ring-image{
+        width: 100%;
+    }
+    .collection-image-divider { margin: 0 auto;}
+    .collection-overview{text-align: center;}
+    .description-of-collection{margin: 0 auto;}
+    .Paragraph-content-of-collection {font-size: 12px;}
+    
+    .second-description-of-collection {margin: 0 auto; width: 85%; line-height: 42px;}
+    .double-quote {width: 10%;}
+    .double-quote-end {width: 10%;}
+    
+    .item {
+        background-color: white; 
+        height: 468px !important; 
+        border: 1px solid #e6e6e6;
+    }
+    
+    owl-item active{
+    width: 100% !important;
+        border: none;
+}
+    
+    .owl-item.active { color: black !important; border: none !important;     margin-right: -229px;}
+    .owl-dots{display: none;}
+    .Third-collection-page{    margin-bottom: -547px;}
+    
+    .finding-store-devider {float: none;}
+    .get-in-touch-devider {float: none;}
+    
+    .collection-paragraph-fourth-section {
+    margin: 0 auto;
+    width: 79%;
+    font-size: 13px;
+    line-height: 27px;
+    font-weight: 400;
+        margin-bottom: 33px;
+    }
+    .gem-stone-devider-first { width: 87%; margin-bottom: 17px !important; height: 147px!important; margin: 0 auto;}      
+    .jew-images-collection{ height: 147px; vertical-align: 40px;}
+    .hemachandra-fifth-sect {margin-top: -101px; }
+    
+    .gem-content-sub { font-size: 10px;}
+    
+    .collection-gemstone-description { vertical-align: 98px;}
+    .gem-content-title { font-size: 16px;}
+    
+/*    .Container { padding: 0px 23px;}*/
+    
+    .Content {width: 205px;}
+    
+    .navleft { width: 98% !important; margin: 0 auto;}
+
+
+}
+
+/* small phones : form 0 to 480px*/
+@media only screen and (max-width:480px){
+    .banner-img-first-section {
+        padding: 78px 0;
+    }
+    
+    .ring-image{
+        width: 100%;
+    }
+    .collection-image-divider { margin-top: -71px;}
+    .collection-overview{text-align: center;}
+    .description-of-collection{margin: 0 auto;}
+    .Paragraph-content-of-collection {font-size: 12px;}
+    
+    .second-description-of-collection {margin: 0 auto; width: 85%; line-height: 42px;}
+    .double-quote {width: 10%;}
+    .double-quote-end {width: 10%;}
+    
+    .item {
+        background-color: white; 
+        height: 468px !important; 
+        border: 1px solid #e6e6e6;
+    }
+    
+    owl-item active{
+    width: 100% !important;
+        border: none;
+}
+    
+    .owl-item.active { color: black !important; border: none !important;     margin-right: -229px;}
+    .owl-dots{display: none;}
+    .Third-collection-page{    margin-bottom: -547px;}
+    
+    .finding-store-devider {float: none;}
+    .get-in-touch-devider {float: none;}
+    
+    .collection-paragraph-fourth-section {
+    margin: 0 auto;
+    width: 79%;
+    font-size: 13px;
+    line-height: 27px;
+    font-weight: 400;
+        margin-bottom: 33px;
+    }
+    .gem-stone-devider-first { width: 87%; margin-bottom: 17px !important; height: 147px!important; margin: 0 auto;}      
+
+    .jew-images-collection{ height: 147px; vertical-align: 40px;}
+    .hemachandra-fifth-sect {margin-top: -101px; }
+    
+    .gem-content-sub { font-size: 12px;}
+    
+    .collection-gemstone-description { vertical-align: 98px;}
+    .gem-content-title { font-size: 17px;}
+    
+/*    .Container { padding: 0px 23px;}*/
+    
+    .Content {margin: 0 auto;}
+    
+    
+}
+    
+/* small mobile view iphone 6/7/8*/
+@media only screen and (max-width:470px) and (min-width:320px){
+    .banner-img-first-section {
+        padding: 78px 0;
+    }
+    
+    .ring-image{
+        width: 100%;
+    }
+    .collection-image-divider { margin-top: -71px;}
+    .collection-overview{text-align: center;}
+    .description-of-collection{margin: 0 auto;}
+    .Paragraph-content-of-collection {font-size: 12px;}
+    
+    .second-description-of-collection {margin: 0 auto; width: 85%; line-height: 42px;}
+    .double-quote {width: 10%;}
+    .double-quote-end {width: 10%;}
+    
+    .item {
+        background-color: white; 
+        height: 468px !important; 
+        border: 1px solid #e6e6e6;
+    }
+    
+    owl-item active{
+    width: 100% !important;
+        border: none;
+}
+    
+    .owl-item.active { color: black !important; border: none !important;     margin-right: -229px;}
+    .owl-dots{display: none;}
+    .Third-collection-page{    margin-bottom: -547px;}
+    
+    .finding-store-devider {float: none;}
+    .get-in-touch-devider {float: none;}
+    
+    .collection-paragraph-fourth-section {
+    margin: 0 auto;
+    width: 79%;
+    font-size: 13px;
+    line-height: 27px;
+    font-weight: 400;
+        margin-bottom: 33px;
+    }
+    .gem-stone-devider-first {width: 100%; margin-bottom: 13px; height: 147px!important;      
+/*width: 100%; margin-bottom: 13px; height: auto !important;}*/}
+    .jew-images-collection{ height: 147px; vertical-align: 40px;}
+    .hemachandra-fifth-sect {margin-top: -101px; }
+    
+    .gem-content-sub { font-size: 12px;}
+    
+    .collection-gemstone-description { vertical-align: 98px;}
+    .gem-content-title { font-size: 17px;}
+    
+/*    .Container { padding: 0px 23px;}*/
+    
+
+
+}
+    
